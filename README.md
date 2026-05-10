@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💰 AI Finance Platform
 
-## Getting Started
+An AI-powered full-stack finance management platform built with Next.js, Supabase, Prisma, Tailwind CSS, Inngest, ArcJet, and Shadcn UI.
 
-First, run the development server:
+This application helps users manage finances, track transactions, generate AI insights, and automate financial workflows with a modern and scalable architecture.
+
+---
+
+## 🚀 Features
+
+- 🔐 Authentication with Clerk
+- 📊 Financial Dashboard
+- 💳 Transaction Management
+- 🤖 AI-powered finance insights using Gemini AI
+- 📈 Analytics & reports
+- 📧 Email notifications with Resend
+- ⚡ Background jobs with Inngest
+- 🛡️ Security & bot protection using ArcJet
+- 🎨 Beautiful UI with Tailwind CSS + Shadcn UI
+- 🗄️ Database management using Prisma ORM
+- ☁️ Supabase integration
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
+- Shadcn UI
+
+### Backend
+- Next.js Server Actions
+- Prisma ORM
+- Supabase
+
+### Authentication
+- Clerk
+
+### AI
+- Google Gemini API
+
+### Other Services
+- Inngest
+- ArcJet
+- Resend
+
+---
+
+## 📂 Folder Structure
 
 ```bash
+├── app
+├── components
+├── data
+├── emails
+├── hooks
+├── lib
+├── prisma
+├── public
+├── actions
+└── middleware.js
+
+⚙️ Environment Variables
+
+Create a .env file in the root directory and add the following:
+DATABASE_URL=
+
+DIRECT_URL=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+
+GEMINI_API_KEY=
+
+RESEND_API_KEY=
+
+ARCJET_KEY=
+
+📦 Installation
+1️⃣ Clone the repository
+git clone <your-repository-url>
+2️⃣ Navigate into the project
+cd ai-finance-platform
+3️⃣ Install dependencies
+npm install
+4️⃣ Setup Prisma
+npx prisma generate
+npx prisma db push
+5️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🧠 AI Integration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project uses Google's Gemini API to generate intelligent finance insights and recommendations.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📧 Email Service
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Resend is used for sending transactional emails and notifications.
 
-## Learn More
+🔒 Security
 
-To learn more about Next.js, take a look at the following resources:
+ArcJet provides:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bot protection
+Rate limiting
+Request validation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<img width="1872" height="830" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/5c272488-1028-44b5-a347-396e0a97583c" />
+<img width="1898" height="831" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/1b60ba7a-021c-48b7-86c8-7c0b8563c3cc" />
+<img width="1883" height="813" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/87f5ec0a-551a-48ee-91c3-afb9274cdedd" />
+<img width="1896" height="813" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/d85900c1-bc93-4c78-a562-296f8f815d80" />
 
-## Deploy on Vercel
+<img width="1882" height="824" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/8d672459-abfb-4f48-b0b7-bc7e0716740b" />
+<img width="1892" height="813" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/8dc3f47c-09c0-4475-a9e1-69221a48e64b" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
