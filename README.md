@@ -3,6 +3,15 @@
 An AI-powered full-stack finance management platform built with Next.js, Supabase, Prisma, Tailwind CSS, Inngest, ArcJet, and Shadcn UI.
 
 This application helps users manage finances, track transactions, generate AI insights, and automate financial workflows with a modern and scalable architecture.
+<img width="1872" height="830" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/2e8ab073-ba22-404f-8a99-aa67763c84f9" />
+<img width="1898" height="831" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/9e5c4899-7501-41d7-9651-72399969660d" />
+<img width="1883" height="813" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/7b77f4c5-c0ca-46c9-9f99-6ac72ebe2857" />
+<img width="1879" height="820" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/26c60560-f221-45d1-b3df-e6acbc291d7d" />
+
+<img width="1896" height="813" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/8f891723-9427-4e2e-bbf3-ad85b14e635c" />
+<img width="1892" height="813" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/e45b405d-62f1-4cc3-bab8-2d115ce62931" />
+<img width="1882" height="824" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/8049cc75-fd68-4675-a88e-fdba1c0ad326" />
+
 
 ---
 
