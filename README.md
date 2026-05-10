@@ -111,12 +111,8 @@ ArcJet provides:
 Bot protection
 Rate limiting
 Request validation
-<img width="1872" height="830" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/b42ae408-2f43-431c-b4b0-889e207c00e3" />
-<img width="1881" height="806" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/e1ec54a4-fe75-41a1-95e4-0493692fafc5" />
-<img width="1883" height="813" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/a947eb5d-ac7c-44e8-a44e-744ba20b6702" />
 
-<img width="1896" height="813" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/ea3db895-7997-49d9-8139-3fed227d1d94" />
-<img width="1892" height="813" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/a465dfc0-348c-4618-a0d0-10f4f8dba69f" />
-<img width="1882" height="824" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/1d5ec642-5fe9-4d9b-803f-57ec97cdcddb" />
+<img width="1872" height="830" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/5c272488-1028-44b5-a347-396e0a97583c" />
+
 
 
